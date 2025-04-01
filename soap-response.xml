@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <EPPGetPersonResponse xmlns="http://svc.kp.org/HPAdmin/EnterpriseProfilesPreferences/Service/V3/">
+      <EPPGetPersonResult xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <eppResponseHeader>
+          <ResponseCode>Success</ResponseCode>
+          <RecordCount>1</RecordCount>
+        </eppResponseHeader>
+        <eppResponseValueGroups>
+          <eppValueGroup>
+            <eppValueGroupName>SamplePerson</eppValueGroupName>
+          </eppValueGroup>
+        </eppResponseValueGroups>
+      </EPPGetPersonResult>
+    </EPPGetPersonResponse>
+  </Body>
+</Envelope>
