@@ -14,7 +14,7 @@ const __dirname = path.dirname(__filename);
 app.use(express.text({ type: 'text/xml' }));
 
 // POST endpoint that mimics SOAP behavior
-app.post('/services/hp_admin/EPP/EnterpriseProfilesPreferencesService/v3', (req, res) => {
+app.post('/test', (req, res) => {
   console.log('SOAP Request Received:\n', req.body);
 
   const xmlResponse = fs.readFileSync(path.join(__dirname, 'soap-response.xml'), 'utf-8');
